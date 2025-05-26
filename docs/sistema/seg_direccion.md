@@ -84,6 +84,7 @@ Dentro de las estructuras particulares descritas, tenemos el Módulo de Direcci�
 | pago_anticipado              | GENERAL.ProductoDetalle | BIT                | ¿Se permite pago anticipado? (0=No, 1=Sí).    |
 
 ### GENERAL.ProductoCatalogo
+
 | Campo                | Tabla                    | Tipo de dato       | Descripción                                          |
 | -------------------- | ------------------------ | ------------------ | ---------------------------------------------------- |
 | id_producto_catalogo | GENERAL.ProductoCatalogo | INT (PK, Identity) | Identificador único del catálogo de productos.       |
@@ -97,6 +98,7 @@ Dentro de las estructuras particulares descritas, tenemos el Módulo de Direcci�
 | clave_cc             | GENERAL.ProductoCatalogo | NVARCHAR(5)        | Clave de Centro de Costo u otra codificación.        |
 
 ### GENERAL.ProductoDetalleCatalogo
+
 | Campo                        | Tabla                           | Tipo de dato       | Descripción                                               |
 | ---------------------------- | ------------------------------- | ------------------ | --------------------------------------------------------- |
 | id_producto_detalle_catalogo | GENERAL.ProductoDetalleCatalogo | INT (PK, Identity) | Identificador único del catálogo de detalles de producto. |
