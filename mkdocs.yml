@@ -10,26 +10,24 @@ theme:
     code: Fira Code
   palette:
     - scheme: default
-      primary: blue grey    # Se mantiene como base pero se sobrescribe con CSS
+      primary: blue grey
       toggle:
         icon: material/weather-night
         name: Cambiar a modo oscuro
 
 nav:
   - Inicio: index.md
-  - Modulo Direccion: MÓDULO DE DIRECCIÓN.md
-  - Arquitectura del sistema: arquitectura.md
-  - Módulos:
-      - Créditos: modulos/creditos.md
-      - Productos: modulos/productos.md
-      - Contabilidad: modulos/contabilidad.md
-      - Tesorería: modulos/tesoreria.md
-  - APIs:
-      - Autenticación: api/autenticacion.md
-      - Créditos: api/creditos_api.md
-  - Seguridad: seguridad.md
-  - Preguntas Frecuentes: preguntas_frecuentes.md
-
+  - Estructura de documentos: estructura_documentos.md
+  - Guía de contribución: guia_contribucion.md
+  - sistema:
+    - dirección: sistema/direccion.md
+  - desarrollo:
+    - base de datos:
+      - tablas: base_datos/tablas
+      - procedimientos: base_datos/store_procedures
+      - vistas: base_datos/vistas
+      - triggers: base_datos/triggers
+      - funciones: base_datos/funciones
 extra_css:
   - styles/base.css
 
