@@ -7,12 +7,12 @@
 
 /* Color del texto en menú lateral */
 .md-nav__item a {
-    color: #ffffff !important;
+    color: #000000 !important;
 }
 
 /* Color de texto al pasar el mouse */
 .md-nav__item a:hover {
-    color: #80C683 !important; /* verde Sofom */
+    color: #230441 !important; /* verde Sofom */
 }
 
 /* Aumentar ancho del contenido */
