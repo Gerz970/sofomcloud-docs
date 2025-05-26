@@ -17,6 +17,7 @@ theme:
 
 nav:
   - Inicio: index.md
+  - Modulo Direccion: MÓDULO DE DIRECCIÓN.md
   - Arquitectura del sistema: arquitectura.md
   - Módulos:
       - Créditos: modulos/creditos.md
