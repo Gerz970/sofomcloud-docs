@@ -1,0 +1,196 @@
+{
+  "main": {
+    "id": "3030e35b741add36",
+    "type": "split",
+    "children": [
+      {
+        "id": "a789c5a5c27573cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cfbd8ef76abffab4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "02a6b408611fae57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MÓDULO DE DIRECCIÓN.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MÓDULO DE DIRECCIÓN"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dd15ab8f7f1ecb69",
+    "type": "split",
+    "children": [
+      {
+        "id": "a237ba809b72381b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8199cca9fc6c784b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "cba81377b1c8e325",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "aea94e1509f20ff5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5dcb89cbf3ccd67d",
+    "type": "split",
+    "children": [
+      {
+        "id": "16a7a210429be489",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1226aae4bd32d875",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "MÓDULO DE DIRECCIÓN.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de MÓDULO DE DIRECCIÓN"
+            }
+          },
+          {
+            "id": "a8760efb96d25218",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "MÓDULO DE DIRECCIÓN.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de MÓDULO DE DIRECCIÓN"
+            }
+          },
+          {
+            "id": "82bd8ef782ca28ab",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "9ecda1d0ec9f07a8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "MÓDULO DE DIRECCIÓN.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de MÓDULO DE DIRECCIÓN"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "02a6b408611fae57",
+  "lastOpenFiles": [
+    "index.md",
+    "MÓDULO DE DIRECCIÓN.md",
+    "Imágenes/Catálogo de Productos.png",
+    "Imágenes/SOFOMCloud.png",
+    "Imágenes/Módulo de Dirección.png",
+    "Imágenes",
+    "README.md"
+  ]
+}
