@@ -1,43 +1,100 @@
-# Bienvenido a Sofom Cloud
+# Bienvenido a Sofom Cloud 🚀
 
-**Sofom Cloud** es una plataforma ERP diseñada específicamente para Sociedades Financieras de Objeto Múltiple. Permite automatizar, controlar y optimizar todos los procesos financieros de manera modular, eficiente y segura.
-
-> Esta documentación tiene como objetivo ayudarte a comprender la arquitectura del sistema, los módulos funcionales, las APIs disponibles y las mejores prácticas para su uso.
+¡Hola, usuario! 👋 Bienvenido a la documentación de **Sofom Cloud**, tu plataforma para gestionar créditos y finanzas de forma ágil y segura.
 
 ---
 
-## 🧭 ¿Qué encontrarás en esta documentación?
+## 📖 Tabla de contenido
 
-=== "📦 Módulos del sistema"
-
-- Créditos: administración, simulaciones, disposiciones.
-- Productos: definición y configuración de productos financieros.
-- Contabilidad: estructura contable, pólizas automáticas.
-- Tesorería: control de bancos, pagos, transferencias.
-
-=== "🔐 Seguridad y acceso"
-
-- Roles y permisos por módulo.
-- Control de sesiones y auditoría de accesos.
-
-=== "🧩 Integraciones y APIs"
-
-- Servicios de autenticación.
-- Endpoints para consultas, simulaciones y operaciones.
+1. [¿Qué encontrarás aquí?](#qué-encontrarás-aquí)
+2. [Características destacadas](#características-destacadas)
+3. [Modo oscuro](#modo-oscuro)
+4. [Imágenes y enlaces](#imágenes-y-enlaces)
+5. [Listas y tareas](#listas-y-tareas)
+6. [Tablas de datos](#tablas-de-datos)
+7. [Código y bloques de ejemplo](#código-y-bloques-de-ejemplo)
+8. [Admoniciones](#admoniciones)
+9. [HTML embebido](#html-embebido)
+10. [Pie de página](#pie-de-página)
 
 ---
 
-## 🚀 ¿Por dónde empezar?
+## ¿Qué encontrarás aquí?
 
-1. Lee la [arquitectura general del sistema](arquitectura.md).
-2. Explora los [módulos funcionales](modulos/creditos.md).
-3. Consulta las [APIs disponibles](api/creditos_api.md).
-4. Revisa nuestras [preguntas frecuentes](preguntas_frecuentes.md).
+- **Introducción** a Sofom Cloud  
+- **Arquitectura** del sistema  
+- **Módulos**: Créditos, Productos, Contabilidad, Tesorería  
+- **APIs**: Autenticación, Créditos  
+- **Seguridad** y buenas prácticas  
+- **Preguntas frecuentes**  
+
+---
+
+## Características destacadas
+
+- 🔧 **Tema Material** para MkDocs  
+- 🌗 **Modo oscuro/claro** configurable  
+- 🖼️ Uso de **imágenes**, **tablas** y **enlaces**  
+- 📝 Soporte para **listas**, **tareas**, **citas** y **notas al pie**  
+- ⚙️ Resalte de **código** en múltiples lenguajes
 
 ---
 
-## 📬 ¿Tienes dudas o sugerencias?
+## Modo oscuro
 
-Puedes comunicarte con el equipo de desarrollo o crear un issue en el repositorio oficial.
+> Tip: Cambia entre **claro** y **oscuro** con el botón 🌙 en la esquina superior derecha.
 
 ---
+
+## Imágenes y enlaces
+
+![Logo de Sofom Cloud](../assets/logo.png)
+
+Visita nuestro [repositorio en GitHub](https://github.com/tuusuario/sofomcloud-docs) para ver el código fuente y contribuir.
+
+---
+
+## Listas y tareas
+
+### Lista ordenada
+
+1. Clonar el repositorio  
+2. Instalar dependencias  
+3. Ejecutar `mkdocs serve`  
+
+### Lista desordenada
+
+- Carpeta `docs/` con archivos Markdown  
+- Configuración en `mkdocs.yml`  
+- Archivos CSS/JS adicionales  
+
+### Lista de tareas
+
+- [x] Crear estructura base  
+- [ ] Documentar cada módulo  
+- [ ] Añadir ejemplos de código  
+- [x] Publicar en GitHub Pages  
+
+---
+
+## Tablas de datos
+
+| Módulo       | Estado     | Responsable    |
+|--------------|------------|----------------|
+| Créditos     | En progreso | @equipo-creditos |
+| Contabilidad | Completado | @equipo-conta   |
+| Tesorería    | Pendiente  | @equipo-teso    |
+
+---
+
+## Código y bloques de ejemplo
+
+```python
+# Ejemplo en Python
+def saludo():
+    """
+    Función de bienvenida.
+    """
+    print("¡Bienvenido a Sofom Cloud!")
+    
+```
