@@ -3,12 +3,12 @@
 ---
 El sistema automatizado SOFOMCloud posee una estructura modular, esto implica la distribución del TODO en una red de módulos interdependientes y de manera consecuente, la interacción entre cada uno de módulos referidos.
 
-![[SOFOMCloud.png]]
+![Pantalla de inicio SOFOM](../../assets/img/pantalla_inicio_sofom.png)
 
 Dentro de las estructuras particulares descritas, tenemos el Módulo de Dirección, donde el Usuario puede desplegar una determinada sección que le permitirá crear nuevos registros, llamados Productos, y editar registros existentes, que contendrán una configuración particular, con la que se podrá construir una tentativa operación de Crédito, cuya esencia se enunciará posteriormente.
 
-![[Módulo de Dirección.png]]
-![[Catálogo de Productos.png]]
+![Pantalla de inicio direccion](../../assets/img/modulo_direccion.png)
+![Pantalla de catalogo productos](../../assets/img/catalogo_productos.png)
 
 ### GENERAL.Producto
 
@@ -54,6 +54,7 @@ Dentro de las estructuras particulares descritas, tenemos el Módulo de Direcci�
 | id_producto_condusef      | GENERAL.Producto | INT                | Clave de producto ante CONDUSEF.                   |
 | id_tipo_moratorio         | GENERAL.Producto | INT                | Tipo de interés moratorio.                         |
 | automotriz                | GENERAL.Producto | BIT                | ¿Es un producto automotriz? (0=No, 1=Sí).          |
+
 ### GENERAL.ProductoDetalle
 
 | Campo                        | Tabla                   | Tipo de dato       | Descripción                                   |
@@ -84,6 +85,7 @@ Dentro de las estructuras particulares descritas, tenemos el Módulo de Direcci�
 | pago_anticipado              | GENERAL.ProductoDetalle | BIT                | ¿Se permite pago anticipado? (0=No, 1=Sí).    |
 
 ### GENERAL.ProductoCatalogo
+
 | Campo                | Tabla                    | Tipo de dato       | Descripción                                          |
 | -------------------- | ------------------------ | ------------------ | ---------------------------------------------------- |
 | id_producto_catalogo | GENERAL.ProductoCatalogo | INT (PK, Identity) | Identificador único del catálogo de productos.       |
@@ -97,6 +99,7 @@ Dentro de las estructuras particulares descritas, tenemos el Módulo de Direcci�
 | clave_cc             | GENERAL.ProductoCatalogo | NVARCHAR(5)        | Clave de Centro de Costo u otra codificación.        |
 
 ### GENERAL.ProductoDetalleCatalogo
+
 | Campo                        | Tabla                           | Tipo de dato       | Descripción                                               |
 | ---------------------------- | ------------------------------- | ------------------ | --------------------------------------------------------- |
 | id_producto_detalle_catalogo | GENERAL.ProductoDetalleCatalogo | INT (PK, Identity) | Identificador único del catálogo de detalles de producto. |

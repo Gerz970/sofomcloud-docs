@@ -1,42 +1,69 @@
 site_name: Sofom Cloud - Documentación
-site_url: https://tuusuario.github.io/sofomcloud-docs/
-language: es
 
 theme:
   name: material
   language: es
-  font:
-    text: Roboto
-    code: Fira Code
+
   palette:
+    # ─────────────────────────────
+    # Modo claro (default)
+    # ─────────────────────────────
     - scheme: default
-      primary: blue grey    # Se mantiene como base pero se sobrescribe con CSS
-      toggle:
-        icon: material/weather-night
-        name: Cambiar a modo oscuro
+      primary: blue grey
 
 nav:
   - Inicio: index.md
-  - Arquitectura del sistema: arquitectura.md
-  - Módulos:
-      - Créditos: modulos/creditos.md
-      - Productos: modulos/productos.md
-      - Contabilidad: modulos/contabilidad.md
-      - Tesorería: modulos/tesoreria.md
-  - APIs:
-      - Autenticación: api/autenticacion.md
-      - Créditos: api/creditos_api.md
-  - Seguridad: seguridad.md
-  - Preguntas Frecuentes: preguntas_frecuentes.md
-
+  - Estructura de documentos: estructura_documentos.md
+  - Guía de contribución: guia_contribucion.md
+  - Sistema:
+    - Simulador:
+      - Simulador: sistema/simulador/simulador.md
+    - Créditos:
+      - Créditos: sistema/creditos/creditos.md
+    - Dashboard:
+      - Dashboard: sistema/dashboard/dashboard.md
+      - Reportes: sistema/dashboard/reportes.md
+    - Clientes:
+      - Clientes: sistema/clientes/clientes.md
+    - Bancos:
+      - Bancos: sistema/bancos/bancos.md
+    - Tesorería:
+      - Tesorería: sistema/tesoreria/tesoreria.md
+    - Call Center:
+      - Call Center: sistema/callcenter/callcenter.md
+    - Reportes:
+      - Reportes: sistema/reportes/reportes.md
+    - SIC:
+      - SIC: sistema/sic/sic.md
+    - Conducef:
+      - Conducef: sistema/conducef/conducef.md
+    - Administración de Riesgos:
+      - Administración de Riesgos: sistema/riesgos/riesgos.md
+    - Dirección:
+      - Dirección: sistema/direccion/direccion.md
+      - Productos: sistema/direccion/productos.md
+    - Seguridad:
+      - Seguridad: sistema/seguridad/seguridad.md
+    - Reporteador:
+      - Reporteador: sistema/reporteador/reporteador.md
+    - Soporte:
+      - Soporte: sistema/soporte/soporte.md
+  - Desarrollo:
+    - Base de datos:
+      - Tablas: base_datos/tablas
+      - Procedimientos: base_datos/store_procedures
+      - Vistas: base_datos/vistas
+      - Triggers: base_datos/triggers
+      - Funciones: base_datos/funciones
+    - API:
+      - Endpoints: desarrollo/api/endpoints
+      - Modelos: desarrollo/api/modelos
+      - Autenticación: desarrollo/api/autenticacion
+      - Configuración: desarrollo/api/configuracion
+      - Funciones: desarrollo/api/funciones
+    - SOFOM:
+      - Backend: desarrollo/sofom/backend
+      - Frontend: desarrollo/sofom/frontend
 extra_css:
   - styles/base.css
 
-extra:
-  generator: false
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/tuusuario
-      name: GitHub
-  copyright:
-    © 2025 Sofom Cloud. Todos los derechos reservados.
