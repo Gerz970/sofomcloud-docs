@@ -1,5 +1,15 @@
 site_name: Sofom Cloud - Documentación
 
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
 theme:
   name: material
   language: es
@@ -56,14 +66,23 @@ nav:
       - Triggers: base_datos/triggers
       - Funciones: base_datos/funciones
     - API:
-      - Endpoints: desarrollo/api/endpoints
+      - Endpoints: 
+        - Productos: desarrollo/api/endpoints/productos.md
+        - Periodo pago: desarrollo/api/endpoints/periodopago.md
       - Modelos: desarrollo/api/modelos
       - Autenticación: desarrollo/api/autenticacion
       - Configuración: desarrollo/api/configuracion
-      - Funciones: desarrollo/api/funciones
+      - Funciones:  
+        - Productos: desarrollo/api/funciones/productos.md
+        - Periodo pago: desarrollo/api/funciones/periodopago.md
     - SOFOM:
-      - Backend: desarrollo/sofom/backend
-      - Frontend: desarrollo/sofom/frontend
+      - Backend:
+        - Funciones:
+          - Productos: desarrollo/sofom/backend/funciones/productos.md
+          - Catalogos: desarrollo/sofom/backend/funciones/catalogos.md
+      - Frontend: 
+        - Funciones: 
+          - Productos: desarrollo/sofom/frontend/funciones/productos.md
 extra_css:
   - styles/base.css
 
