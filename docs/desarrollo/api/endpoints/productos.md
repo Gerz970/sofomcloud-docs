@@ -122,3 +122,15 @@ Valida las credenciales de acceso, ejecuta la función <a href="../../../../../d
 Valida las credenciales de acceso, ejecuta la función <a href="../../../../../desarrollo/api/funciones/productos/#get_cedente_fisico"> 
     <strong>get_cedente_fisico</strong>
   </a> y retorna los resultados.
+#### {platform_id}/empresas/{company_id}/obtener_submetodos_refactor
+Valida las credenciales de acceso, ejecuta la función <a href="../../../../../desarrollo/api/funciones/productos/#get_product_submetod_refactor"> 
+    <strong>get_product_submetod_refactor</strong>
+  </a> y retorna los resultados.
+#### {platform_id}/empresas/{company_id}/get_configuration_automotriz_method
+Valida las credenciales de acceso, ejecuta la función <a href="../../../../../desarrollo/api/funciones/productos/#get_configuration_automotriz_method"> 
+    <strong>get_configuration_automotriz_method</strong>
+  </a> y retorna los resultados.
+#### {platform_id}/get_lineas_fondeo
+Valida las credenciales de acceso, ejecuta la función <a href="../../../../../desarrollo/api/funciones/productos/#get_lineas_fondeo"> 
+    <strong>get_lineas_fondeo</strong>
+  </a> y retorna los resultados.

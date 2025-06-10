@@ -68,21 +68,66 @@ nav:
     - API:
       - Endpoints: 
         - Productos: desarrollo/api/endpoints/productos.md
+        - Ciudades: desarrollo/api/endpoints/ciudades.md
+        - Empresas: desarrollo/api/endpoints/empresas.md
+        - Estado civil: desarrollo/api/endpoints/estado civil.md
+        - Locaciones: desarrollo/api/endpoints/locaciones.md
+        - Metodo calculo: desarrollo/api/endpoints/metodo calculo.md
+        - Moneda: desarrollo/api/endpoints/moneda.md
+        - Nacionalidades: desarrollo/api/endpoints/nacionalidades.md
         - Periodo pago: desarrollo/api/endpoints/periodopago.md
+        - Regimen fiscal: desarrollo/api/endpoints/regimen fiscal.md
+        - Reportes: desarrollo/api/endpoints/reportes.md
+        - Riesgos: desarrollo/api/endpoints/riesgos.md
+        - Submetodo calculo: desarrollo/api/endpoints/submetodo calculo.md
+        - Tipos de gracia: desarrollo/api/endpoints/tipos gracia.md
       - Modelos: desarrollo/api/modelos
       - Autenticación: desarrollo/api/autenticacion
       - Configuración: desarrollo/api/configuracion
       - Funciones:  
         - Productos: desarrollo/api/funciones/productos.md
+        - Ciudades: desarrollo/api/funciones/ciudades.md
+        - Empresas: desarrollo/api/funciones/empresas.md
+        - Estado civil: desarrollo/api/funciones/estado civil.md
+        - Locaciones: desarrollo/api/funciones/locaciones.md
+        - Metodo calculo: desarrollo/api/funciones/metodo calculo.md
+        - Moneda: desarrollo/api/funciones/moneda.md
+        - Nacionalidades: desarrollo/api/funciones/nacionalidades.md
         - Periodo pago: desarrollo/api/funciones/periodopago.md
+        - Regimen fiscal: desarrollo/api/funciones/regimen fiscal.md
+        - Reportes: desarrollo/api/funciones/reportes.md
+        - Riesgos: desarrollo/api/funciones/riesgos.md
+        - Submetodo calculo: desarrollo/api/funciones/submetodo calculo.md
+        - Tipos de gracia: desarrollo/api/funciones/tipos gracia.md
     - SOFOM:
       - Backend:
         - Funciones:
           - Productos: desarrollo/sofom/backend/funciones/productos.md
           - Catalogos: desarrollo/sofom/backend/funciones/catalogos.md
+          - Reportes: desarrollo/sofom/backend/funciones/reportes.md
+          - Riesgos: desarrollo/sofom/backend/funciones/riesgos.md
       - Frontend: 
         - Funciones: 
           - Productos: desarrollo/sofom/frontend/funciones/productos.md
+    - API ICE-CORE:
+      - Endpoints: 
+        - Productos: desarrollo/api_ice_core/endpoints/productos.md
+        - Conceptos: desarrollo/api_ice_core/endpoints/conceptos.md
+      - Modelos: desarrollo/api/modelos
+      - Autenticación: desarrollo/api/autenticacion
+      - Configuración: desarrollo/api/configuracion
+      - Funciones:  
+        - Productos: desarrollo/api_ice_core/funciones/productos.md
+        - Conceptos: desarrollo/api_ice_core/funciones/conceptos.md
+    - SOFOM ICE-CORE:
+      - Backend:
+        - Funciones:
+          - Productos: desarrollo/sofom_ice_core/backend/funciones/productos.md
+          - Conceptos: desarrollo/sofom_ice_core/backend/funciones/conceptos.md
+      - Frontend: 
+        - Funciones: 
+          - Productos: desarrollo/sofom_ice_core/frontend/funciones/productos.md
+          - Conceptos: desarrollo/sofom_ice_core/frontend/funciones/productos.md
 extra_css:
   - styles/base.css
 

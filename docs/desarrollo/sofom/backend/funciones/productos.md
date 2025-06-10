@@ -179,4 +179,19 @@ Crea una petición al endpoint <a href="../../../../../desarrollo/api/endpoints/
 Crea una petición al endpoint <a href="../../../../../desarrollo/api/endpoints/productos/#platform_idempresascompany_idget_cedente_fisico"> 
     <strong>{platform_id}/empresas/{company_id}/get_cedente_fisico</strong>
   </a> del api, añadiendo a la consulta el payload recibido
+#### GetLineasFondeoAPI
+
+Crea una petición al endpoint <a href="../../../../../desarrollo/api/endpoints/productos/#platform_idget_lineas_fondeo"> 
+    <strong>{platform_id}/get_lineas_fondeo</strong>
+  </a> del api, añadiendo a la consulta el payload recibido
+#### GetTasasActualesAPI
+
+Crea una petición al endpoint <a href="../../../../../desarrollo/api/endpoints/tasas/#platform_idsimulaciontasasactuales"> 
+    <strong>{platform_id}/simulacion/tasasactuales</strong>
+  </a> del api, añadiendo a la consulta el payload recibido
+#### GetDescTasasActualesAPI
+
+Crea una petición al endpoint <a href="../../../../../desarrollo/api/endpoints/tasas/#platform_idsimulacionproducto_tasasid_tasa_variable"> 
+    <strong>{platform_id}/simulacion/producto_tasas/{id_tasa_variable}</strong>
+  </a> del api, añadiendo a la consulta el payload recibido
 

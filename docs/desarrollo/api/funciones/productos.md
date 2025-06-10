@@ -383,7 +383,6 @@ Ejecuta el SP General.Sp_Cedente_Banco_Obt que retorna los registros relacionado
 	, id_regimen_fiscal
 }
 ```
-
 #### get_cedent_document
 
 Ejecuta el SP General.Sp_CedenteDocumentos_Obt que retorna los registros relacionados con el id cedente y régimen fiscal  de la tabla <a href="../../../../../sistema/direccion/direccion/#generalproductodetalle"> 
@@ -396,9 +395,6 @@ Ejecuta el SP General.Sp_CedenteDocumentos_Obt que retorna los registros relacio
 	, id_regimen_fiscal
 }
 ```
-
-
-
 #### get_cedente_fisico
 
 Ejecuta el SP General.Sp_CedentePF_Obt que retorna los registros relacionados con el id producto de la tabla <a href="../../../../../sistema/direccion/direccion/#generalproductodetalle"> 
@@ -410,6 +406,32 @@ Ejecuta el SP General.Sp_CedentePF_Obt que retorna los registros relacionados co
 	id_producto: 1
 }
 ```
+#### get_product_submetod_refactor
 
+Ejecuta el SP General.Sp_MetodosSubmetodosRefactor_Obt que retorna los registros relacionados con el id metodo de calculo de la tabla <a href="../../../../../sistema/direccion/direccion/#generalproductodetalle"> 
+    <strong>GENERAL.SubmetodoCalculo</strong>
+  </a>
+  
+``` json title="Payload de entrada"
+{
+	id_metodo_calculo: 1
+}
+```
 
+#### get_configuration_automotriz_method
+
+Ejecuta una consulta sql para obtener el registro con la clave MetodoAutomotriz de la tabla  <a href="../../../../../sistema/direccion/direccion/#generalproductodetalle"> 
+    <strong>GENERAL.Tb_ConfigAplicacion</strong>
+  </a>
+#### get_lineas_fondeo
+
+Ejecuta el SP GENERAL.Sp_LineasFondeo_Obt que obtiene el catálogo de líneas de fondeo de la tabla <a href="../../../../../sistema/direccion/direccion/#generalproductodetalle"> 
+    <strong>GENERAL.lineafondeo</strong>
+  </a> filtrando las relacionadas al usuario
+  
+``` json title="Payload de entrada"
+{
+	id_usuario: 1
+}
+```
 
