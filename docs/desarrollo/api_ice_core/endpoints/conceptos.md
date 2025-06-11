@@ -41,8 +41,6 @@ Valida las credenciales de acceso, ejecuta la función <a href="../../../../../d
 Valida las credenciales de acceso, ejecuta la función <a href="../../../../../desarrollo/api_ice_core/funciones/conceptos/#get_concept_log"> 
     <strong>get_concept_log</strong>
   </a> y retorna los resultados.
-
-
 #### {platform_id}/product_concepts/get_product_concepts
 
 Valida las credenciales de acceso, ejecuta la función <a href="../../../../../desarrollo/api_ice_core/funciones/conceptos/#get_product_concepts"> 

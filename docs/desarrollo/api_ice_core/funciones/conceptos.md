@@ -53,10 +53,10 @@ Consulta los registros de la tabla <a href="../../../../../sistema/direccion/dir
 
 Consulta los registros de la tabla <a href="../../../../../sistema/direccion/direccion/#generalproducto"> 
     <strong>GENERAL.tb_catalogoCategoriasConcepto</strong>
-  </a>, usando la clave concept_key MOR - GC para filtrar los registros por su relación con la tabla  <a href="../../../../../sistema/direccion/direccion/#generalproducto"> 
+  </a>, usando la clave concept_key CRE - IMP para filtrar los registros por su relación con la tabla  <a href="../../../../../sistema/direccion/direccion/#generalproducto"> 
     <strong>GENERAL.Tb_CatalogoCaracteristicas</strong>
   </a> en la tabla intermedia <a href="../../../../../sistema/direccion/direccion/#generalproducto"> 
-    <strong>GENERAL.general.Tb_ConfiguracionCategoria</strong>
+    <strong>GENERAL.Tb_ConfiguracionCategoria</strong>
   </a>
   
 ``` json title="Payload de entrada"

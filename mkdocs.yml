@@ -127,7 +127,7 @@ nav:
       - Frontend: 
         - Funciones: 
           - Productos: desarrollo/sofom_ice_core/frontend/funciones/productos.md
-          - Conceptos: desarrollo/sofom_ice_core/frontend/funciones/productos.md
+          - Conceptos: desarrollo/sofom_ice_core/frontend/funciones/conceptos.md
 extra_css:
   - styles/base.css
 
