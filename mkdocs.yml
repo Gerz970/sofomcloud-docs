@@ -60,11 +60,23 @@ nav:
       - Soporte: sistema/soporte/soporte.md
   - Desarrollo:
     - Base de datos:
-      - Tablas: base_datos/tablas
-      - Procedimientos: base_datos/store_procedures
-      - Vistas: base_datos/vistas
-      - Triggers: base_datos/triggers
-      - Funciones: base_datos/funciones
+      - CREDITOS: 
+        - TABLAS: 
+          - Credito: desarrollo/base_datos/CREDITOS/tablas/Credito.md
+      - GENERAL:
+        - TABLAS: 
+          - Producto: desarrollo/base_datos/GENERAL/tablas/Producto.md
+          - ProductoDetalle: desarrollo/base_datos/GENERAL/tablas/ProductoDetalle.md
+          - ProductoCatalogo: desarrollo/base_datos/GENERAL/tablas/ProductoCatalogo.md
+          - ProductoDetalleCatalogo: desarrollo/base_datos/GENERAL/tablas/ProductoDetalleCatalogo.md
+          - ProductoDetalleCatalogoNaturaleza: desarrollo/base_datos/GENERAL/tablas/ProductoDetalleCatalogoNaturaleza.md
+          - ProductoDocumento: desarrollo/base_datos/GENERAL/tablas/ProductoDocumento.md
+          - ProductoImpacto: desarrollo/base_datos/GENERAL/tablas/ProductoImpacto.md
+          - ProductoMetodosCalculo: desarrollo/base_datos/GENERAL/tablas/ProductoMetodosCalculo.md
+          - ProductosImpacto: desarrollo/base_datos/GENERAL/tablas/ProductosImpacto.md
+          - MetodoCalculo: desarrollo/base_datos/GENERAL/tablas/MetodoCalculo.md
+          - SubmetodoCalculo: desarrollo/base_datos/GENERAL/tablas/SubmetodoCalculo.md
+      
     - API:
       - Endpoints: 
         - Productos: desarrollo/api/endpoints/productos.md
