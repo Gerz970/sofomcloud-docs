@@ -63,8 +63,38 @@ nav:
       - CREDITOS: 
         - TABLAS: 
           - Credito: desarrollo/base_datos/CREDITOS/tablas/Credito.md
+      - DIRECCION:
+        - TABLAS:
+          - Tb_Conceptos: desarrollo/base_datos/DIRECCION/tablas/Tb_Conceptos.md
+          - Tb_ConceptoCaracteristicas: desarrollo/base_datos/DIRECCION/tablas/Tb_ConceptoCaracteristicas.md
+          - Tb_ConceptosLog: desarrollo/base_datos/DIRECCION/tablas/Tb_ConceptosLog.md
+          - Tb_AdministracionCaracteristicas: desarrollo/base_datos/DIRECCION/tablas/Tb_AdministracionCaracteristicas.md
+          - Tb_Productos: desarrollo/base_datos/DIRECCION/tablas/Tb_Productos.md
+          - Tb_ProductoCaracteristicas: desarrollo/base_datos/DIRECCION/tablas/Tb_ProductoCaracteristicas.md
+          - Tb_ProductoConceptos: desarrollo/base_datos/DIRECCION/tablas/Tb_ProductoConceptos.md
+          - Tb_ProductoFactoresRiesgo: desarrollo/base_datos/DIRECCION/tablas/Tb_ProductoFactoresRiesgo.md
+          - Tb_ProductosModeloPropiedades: desarrollo/base_datos/DIRECCION/tablas/Tb_ProductosModeloPropiedades.md
+          - Tb_ProductoSeguro: desarrollo/base_datos/DIRECCION/tablas/Tb_ProductoSeguro.md
+          - Tb_ProductoMetodo: desarrollo/base_datos/DIRECCION/tablas/Tb_ProductoMetodo.md
+
       - GENERAL:
+        - PROCEDURES:
+          - Sp_producto_Del: desarrollo/base_datos/GENERAL/procedures/Sp_producto_Del.md
+          - Sp_producto_Ins: desarrollo/base_datos/GENERAL/procedures/Sp_producto_Ins.md
+          - Sp_Producto_Obt: desarrollo/base_datos/GENERAL/procedures/Sp_Producto_Obt.md
+          - Sp_ProductoCatalogo_Obt: desarrollo/base_datos/GENERAL/procedures/Sp_ProductoCatalogo_Obt.md
+          - Sp_ProductoDocumentos_Del: desarrollo/base_datos/GENERAL/procedures/Sp_ProductoDocumentos_Del.md
+          - Sp_ProductoDocumentos_Ins: desarrollo/base_datos/GENERAL/procedures/Sp_ProductoDocumentos_Ins.md
+          - Sp_ProductoDocumentos_Obt: desarrollo/base_datos/GENERAL/procedures/Sp_ProductoDocumentos_Obt.md
+          - Sp_ProductoGuardado_Obt: desarrollo/base_datos/GENERAL/procedures/Sp_ProductoGuardado_Obt.md
+          - Sp_ProductoReportes_Del: desarrollo/base_datos/GENERAL/procedures/Sp_ProductoReportes_Del.md
+          - Sp_ProductoReportes_Ins: desarrollo/base_datos/GENERAL/procedures/Sp_ProductoReportes_Ins.md
+          - sp_ProductoReportes_Obt: desarrollo/base_datos/GENERAL/procedures/sp_ProductoReportes_Obt.md
+          - Sp_Productos_Obt: desarrollo/base_datos/GENERAL/procedures/Sp_Productos_Obt.md
+          - Sp_DetalleProductoAll_Dell: desarrollo/base_datos/GENERAL/procedures/Sp_DetalleProductoAll_Dell.md
+          - Sp_DetallesProducto_Ins: desarrollo/base_datos/GENERAL/procedures/Sp_DetallesProducto_Ins.md
         - TABLAS: 
+          - Estatus: desarrollo/base_datos/GENERAL/tablas/Estatus.md
           - Producto: desarrollo/base_datos/GENERAL/tablas/Producto.md
           - ProductoDetalle: desarrollo/base_datos/GENERAL/tablas/ProductoDetalle.md
           - ProductoCatalogo: desarrollo/base_datos/GENERAL/tablas/ProductoCatalogo.md
@@ -76,6 +106,12 @@ nav:
           - ProductosImpacto: desarrollo/base_datos/GENERAL/tablas/ProductosImpacto.md
           - MetodoCalculo: desarrollo/base_datos/GENERAL/tablas/MetodoCalculo.md
           - SubmetodoCalculo: desarrollo/base_datos/GENERAL/tablas/SubmetodoCalculo.md
+          - Tb_CatalogoCaracteristicas: desarrollo/base_datos/GENERAL/tablas/Tb_CatalogoCaracteristicas.md
+          - Tb_CatalogoCategoriasConcepto: desarrollo/base_datos/GENERAL/tablas/Tb_CatalogoCaracteristicas.md
+          - Tb_CatalogoElementos: desarrollo/base_datos/GENERAL/tablas/Tb_CatalogoElementos.md
+          - Tb_CatalogoFormasPago: desarrollo/base_datos/GENERAL/tablas/Tb_CatalogoFormasPago.md
+          - Tb_CatalogoModosCobro: desarrollo/base_datos/GENERAL/tablas/Tb_CatalogoModosCobro.md
+          - Tb_CatalogoTiposConcepto: desarrollo/base_datos/GENERAL/tablas/Tb_CatalogoTiposConcepto.md
       
     - API:
       - Endpoints: 
